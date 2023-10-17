@@ -1,41 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Simple Template</title>
+    <title>El mundo animal</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>Welcome to My Website</h1>
+      <h1>MUNDO ANIMAL</h1>
     </header>
     ​
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul id="menu">
+        <li class="m1">
+          <a href="#nosotros">Sobre nosotros y nuestro blog</a>
+        </li>
+        <li claas="m1"><a href="#articulo">Artículos</a></li>
+        <li claas="m1"><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
     ​
     <main>
-      <section id="home">
-        <h2>Home</h2>
-        <p>This is the home section.</p>
+      <section>
+        <h2 class="title" id="inicio">Inicio</h2>
+        <p id="introduccion">
+          El mundo animal siempre ha formado parte de nosotros desde los inicios
+          más iniciosos de la humanidad.
+          <br />
+          En este blog hablaremos sobre toda la fauna existente en el mundo. Los
+          seres acuáticos, los voladores, los que se arrastran, y muchísimo más.
+          Y, finalmente, daremos respuesta a la gran pregunta del siglo XXI.
+          <br />
+        </p>
+
+        <br />
+
+        <p id="pregunta">
+          ¿Son los humanos animales también o tan sólo una raza inferior?
+        </p>
       </section>
       ​
-      <section id="about">
-        <h2>About</h2>
-        <p>This is the about section.</p>
+      <section>
+        <h2 class="title" id="nosotros">Sobre nosotros y nuestro blog</h2>
+        <article>
+          <img id="gatos" src="gatos.jpg" width="600" />
+
+          <p id="cotilla">
+            Menudo cotilla estás hecho, ¿no? No te diremos quiénes somos, ni
+            tampoco porque hacemos lo que hacemos, pero te dejamos esta imagen
+            de gatitos que seguro te gustará.
+          </p>
+        </article>
       </section>
-      ​
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>This is the contact section.</p>
+
+      <section>
+        <h2 class="title" id="articulo">Artículos</h2>
+        <article class="arañas">
+          <br />
+          <h3>Los tipos de araña más comunes</h3>
+          <br />
+          <p class="arañas1">
+            Las más de 40,000 especies de arañas del mundo vienen en todo tipo
+            de formas, tamaños y colores. Pero estas son algunas características
+            comunes para ayudarte a distinguir las arañas de otros insectos:
+          </p>
+          <ul class="arañas1">
+            <li>Todas las arañas tienen ocho patas y de seis a ocho ojos.</li>
+            <li>
+              Los cuerpos de las arañas tienen dos regiones: el cefalotórax y el
+              abdomen.
+            </li>
+            <li>
+              Normalmente, las arañas macho son más pequeñas y tienen marcas de
+              diferentes colores que las hembras.
+            </li>
+          </ul>
+          <p class="arañas1">
+            A continuación hacemos una clasificación de los tipos más comunes de
+            araña:
+          </p>
+          <table>
+            <tr>
+              <th>Nombre</th>
+              <th>Foto</th>
+              <th>Procedencia</th>
+            </tr>
+            <tr>
+              <td>Tarántulas</td>
+              <td>
+                <img
+                  src="https://raid-cdn.azureedge.net/-/media/Images/Project/RaidSite/Article-Details-Page/Articles/Types-of-Spiders/Types-Of-Spiders-2.jpg"
+                  width="200"
+                />
+              </td>
+              <td class="lugar">Asia, África, Europa y Oceanía</td>
+            </tr>
+            <tr>
+              <td>Arañas saltarinas</td>
+              <td>
+                <img
+                  src="https://raid-cdn.azureedge.net/-/media/Images/Project/RaidSite/Article-Details-Page/Articles/Types-of-Spiders/Types-Of-Spiders-3.jpg"
+                  width="200"
+                />
+              </td>
+              <td class="lugar">África, Europa y Oceanía</td>
+            </tr>
+        </tr>
+        <tr>
+          <td>Arañas de tierra</td>
+          <td>
+            <img
+              src="https://raid-cdn.azureedge.net/-/media/Images/Project/RaidSite/Article-Details-Page/Articles/Types-of-Spiders/Types-Of-Spiders-4.jpg"
+              width="200"
+            />
+            <td class="lugar">Europa y Oceanía</td>
+          </td>
+        </tr>
+        <tr>
+            <td>Arañas de saco</td>
+            <td>
+              <img
+                src="https://raid-cdn.azureedge.net/-/media/Images/Project/RaidSite/Article-Details-Page/Articles/Types-of-Spiders/Types-Of-Spiders-5.jpg"
+                width="200"
+              />
+            </td>
+            <td class="lugar">Andorra</td>
+          </tr>
+          <tr>
+            <td>Arañas cangrejo</td>
+            <td>
+              <img
+                src="https://raid-cdn.azureedge.net/-/media/Images/Project/RaidSite/Article-Details-Page/Articles/Types-of-Spiders/Types-Of-Spiders-6.jpg"
+                width="200"
+              />
+            </td>
+            <td class="lugar">África</td>
+          </tr>
+          </table>
+        </article>
+      </section>
+      <br>
+      <section>
+        <h2 class="title" id="contacto">Contacto</h2>
+        <p class="arañas2">¿Tienes alguna sugerencia para el próximo post? Pues rellena el siguiente forumlario y no te haremos ni puto caso.</p>
+        <br>
+        <form action="/formulario" method="post">
+            <label for="nombre"> Nombre</label>
+            <input id="nombre" placeholder="Perico" name="Nombre" type="text"/>
+            <br>
+            <label for="apellidos"> Apellidos</label>
+            <input id="apellidos" placeholder="De Los Palotes" name="Apellidos" type="text"/>
+            <br>
+            <label for="contenido"> Marca esta casilla si te ha gustado el contenido</label>
+            <input id="contenido"  name="Contenido" type="checkbox"/>
+            <br>
+            <label for="email"> Email (para poderte spamear) </label>
+            <input id="email" placeholder="tubebe69@gmail.com" name="Email" type="email"/>
+            <br>
+            <label for="dinero"> ¿Quieres aportar para que podamos crecer? </label>
+            <input id="dinero" value="999999 €" name="Dinero" type="text"/>
+            <br>
+            <br>
+            <textarea rows="10" cols="100" id="comentario" placeholder="Escribe algo para que podamos ignorarte" name="comentario"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
       </section>
     </main>
-    ​
+    <br>
     <footer>
+        <section class="foot" id="menu">
+            <a href="mailto:pepedepueblo@gmail.com">Contactanos aquí, supongo</a>
+            <a href="#inicio">Volver al prinicipio</a>
+        </section>
       <p>Copyright © 2023</p>
     </footer>
   </body>
